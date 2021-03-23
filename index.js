@@ -1,13 +1,9 @@
 
 window.onload = function() {
-let dot = document.getElementsByClassName("qodef-side-menu-icon")
-let dotArray = [];
+let dot = document.querySelectorAll('#dots .qodef-dot');
 
-pushDot(document.querySelectorAll('#dots .qodef-dot'));
+dot[4].style.background = "blue";
 
-function pushDot(nextDot){
-dotArray.push(nextDot);
-}
-console.log(dotArray);
+
 
 }
